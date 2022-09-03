@@ -1,0 +1,8 @@
+:root {
+    --nav-color:rgb(206, 174, 174);
+    --nav-color-hover:rgb(165, 82, 82);
+    --nav-border-color:rgb(128, 27, 27);
+    --light-color:rgb(175, 172, 172);
+    --font-color:rgb(20, 1, 1);
+    --font-color-hover:rgb(163, 37, 37);
+}
