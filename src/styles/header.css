@@ -1,0 +1,10 @@
+.header{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__image{
+    max-width: 200px;
+    max-height: 200px;
+}
