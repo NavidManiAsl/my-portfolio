@@ -10,7 +10,7 @@ function Navigation() {
   return (
     <div id='navbar'>
       <Container className='navigation__container'>  
-        <Navbar expand='lg'>
+        <Navbar expand='lg' variant='dark'>
             <Navbar.Brand href='#home'>Navid Mani Asl</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse  style={{justifyContent: 'flex-end'}}>

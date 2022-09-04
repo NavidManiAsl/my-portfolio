@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 :root {
-    --nav-color:rgb(206, 174, 174);
+    --nav-color:rgb(7, 7, 7);
     --nav-color-hover:rgb(165, 82, 82);
     --nav-border-color:rgb(128, 27, 27);
     --light-color:rgb(175, 172, 172);
-    --font-color:rgb(20, 1, 1);
-    --font-color-hover:rgb(163, 37, 37);
+    --font-color:rgb(255, 255, 255);
+    --font-color-hover:rgb(146, 144, 144);
 }

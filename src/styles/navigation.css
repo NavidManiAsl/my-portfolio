@@ -2,11 +2,16 @@
     background-color: var(--nav-color);
 }
 
-.nav-link{
+a.nav-link{
     font-family: 'Press Start 2P', cursive;
     font-size: 1rem;
+    color: var(--font-color)
 }
-.navbar-brand{
+a.navbar-brand{
     font-family: 'Press Start 2P', cursive;
-    font-size: .8rem;;
+    color: var(--font-color); 
+}
+
+.navbar-toggler{
+    background-color: var(--font-color);
 }
