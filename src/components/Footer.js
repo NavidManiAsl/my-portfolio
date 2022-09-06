@@ -9,8 +9,8 @@ function Footer() {
     <div className='footer'>
       <div className="footer__links">
         <IconContext.Provider value={{size:'2rem',style: { verticalAlign: 'bottom' }}}>
-        <a href='https://www.linkedin.com/in/navid-maniasl-89625b1aa' className='footer__link'> <AiOutlineLinkedin  /></a>
           <a href='https://github.com/NavidManiAsl' className='footer__link'><FaGithubSquare  /></a>
+        <a href='https://www.linkedin.com/in/navid-maniasl-89625b1aa' className='footer__link'><AiOutlineLinkedin  /></a>
         </IconContext.Provider>
       </div>
       <p className='footer__text'>

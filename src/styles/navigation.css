@@ -1,6 +1,6 @@
 #navbar{
     background-color: var(--nav-color);
-    margin-bottom: 10rem;
+    /* margin-bottom: 10rem; */
 }
 
 a.nav-link{
@@ -11,6 +11,7 @@ a.nav-link{
 a.navbar-brand{
     font-family: 'Press Start 2P', cursive;
     color: var(--font-color); 
+    flex-grow: 2;
 }
 
 

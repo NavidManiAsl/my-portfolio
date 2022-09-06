@@ -7,28 +7,30 @@
 }
 
 .header__image{
-    max-width: 220px;
-    max-height: 220px;
+    max-width: 280px;
+    max-height: 280px;
     filter: grayscale(90%);
     margin:0.5rem 1rem;
     
 }
-.header__image:hover{
-    filter: grayscale(0%);
-    transition: 3000ms;
-}
+
+
 .index-module_type__1pV_J{
     font-family: 'Press Start 2P', cursive;
     color: var(--font-color)
 }
 .home-main{
     background-color: var(--nav-color);
-    size:10000vmax;
+    height: 100vh;
     display: flex;
     flex-direction:column;
+    
 }
 .home__content{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-grow: 1;
+    
+    
 }
