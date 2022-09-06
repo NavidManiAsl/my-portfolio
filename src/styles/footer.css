@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--nav-color);
+    color: var(--font-color);
+    font-family: 'Press Start 2P', cursive;
+    font-size: .8rem;
+}
+
+.footer__text{
+    margin: 1rem;
+
+}

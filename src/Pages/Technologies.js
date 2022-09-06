@@ -1,8 +1,12 @@
 import React from 'react'
+import Footer from '../components/Footer'
 
 function Technologies() {
   return (
-    <div>Technologies</div>
+    <div>
+      <p>Technologies</p>
+      <Footer />
+    </div>
   )
 }
 

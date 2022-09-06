@@ -12,6 +12,4 @@ a.navbar-brand{
     color: var(--font-color); 
 }
 
-.navbar-toggler{
-    background-color: var(--font-color);
-}
+

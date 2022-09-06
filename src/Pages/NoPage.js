@@ -1,8 +1,12 @@
 import React from 'react'
+import Footer from '../components/Footer'
 
 function NoPage() {
   return (
-    <div>NoPage</div>
+    <div>
+      <p>Not found</p>
+      <Footer />
+    </div>
   )
 }
 

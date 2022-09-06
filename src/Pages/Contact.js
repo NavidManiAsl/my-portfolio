@@ -1,8 +1,12 @@
 import React from 'react'
+import Footer from '../components/Footer'
 
 function Contact() {
   return (
-    <div>contact</div>
+    <div>
+      <p>contact</p>
+      <Footer />
+    </div>
   )
 }
 
