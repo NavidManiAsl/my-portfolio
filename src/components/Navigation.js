@@ -11,7 +11,7 @@ function Navigation() {
     <div id='navbar'>
       <Container className='navigation__container'>  
         <Navbar expand='lg' variant='dark'>
-            <Navbar.Brand href='home'>Navid Mani Asl</Navbar.Brand>
+            <Navbar.Brand href='home'>Navid Maniasl</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse  style={{justifyContent: 'flex-end'}}>
               <Nav>

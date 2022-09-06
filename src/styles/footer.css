@@ -9,9 +9,24 @@
     color: var(--font-color);
     font-family: 'Press Start 2P', cursive;
     font-size: .8rem;
+    align-items: center;
 }
 
 .footer__text{
     margin: 1rem;
 
 }
+
+.footer__links{
+    color: var(--font-color);
+    margin-right: 3rem;
+}
+
+.footer__link{
+    color: var(--font-color);
+}
+.footer__link:hover{
+    color: var(--font-color-hover)
+}
+
+ 
