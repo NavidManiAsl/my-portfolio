@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import '../images/myPicture.png'
 import { TypeAnimation } from 'react-type-animation';
 import '../styles/home.css'
+import Showcase from '../components/Showcase';
 
 function Home() {
   return (
@@ -31,6 +32,7 @@ function Home() {
           />
           </div>
         </div>
+        <Showcase />
         <Footer />
     </div>
   )
