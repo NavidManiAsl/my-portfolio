@@ -12,7 +12,7 @@ function Home() {
         <Navigation />
         <div className="home__content">
         <img className='header__image' src={require( "../images/myPicture.png")} alt="Navid Mani Asl" />
-          <div style={{width:450}}>
+          <div style={{width:450}} className='home__text'>
               <TypeAnimation
               sequence={[
               '<Who am i? />',
