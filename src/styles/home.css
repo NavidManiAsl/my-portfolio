@@ -1,14 +1,15 @@
 .header{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
     background-color: var(--nav-color);
     size: auto;
 }
 
 .header__image{
-    max-width: 280px;
-    max-height: 280px;
+    width: 300px;
+    height: 300px;
     filter: grayscale(90%);
     margin:0.5rem 1rem;
     
@@ -29,7 +30,9 @@
 .home__content{
     display: flex;
     align-items: center;
+    align-content: center;
     justify-content: center;
+    flex-direction: column;
     height: 90vh;
     
     
