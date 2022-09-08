@@ -1,7 +1,7 @@
 import React from 'react'
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
-import '../images/myPicture.png'
+
 import { TypeAnimation } from 'react-type-animation';
 import '../styles/home.css'
 import Showcase from '../components/Showcase';
@@ -19,9 +19,9 @@ function Home() {
               700,
               '<Who am I? />',
               3500,
-              '<Passionate coder />',
+              '<Back-end web developer/>',
               2500,
-              '<Material science engineer />',
+              '<Front-end web developer />',
               2500,
               '<Full Stack Developer />',
               1000,

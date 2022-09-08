@@ -1,12 +1,13 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Navigation from '../components/Navigation'
+import Construction from '../components/Construction'
 
 function Projects() {
   return (
     <div>
       <Navigation />
-      <p>projects</p>
+        <Construction />
       <Footer />
     </div>
   )

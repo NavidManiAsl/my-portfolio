@@ -1,0 +1,15 @@
+.error{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+.error__image{
+    max-width: 400px;
+    filter: grayscale(100%);
+}
+.error__text{
+    font-family: 'Press Start 2P', cursive;
+    color: var(--font-color) ;
+    font-size: 3rem;
+}
