@@ -6,10 +6,10 @@ import '../styles/about.css'
 
 function About() {
   return (
-    <div>
+    <div className='about'>
       <Navigation />
       <section className='about-text'>
-        <div style={{width:500} } >
+        <div  >
               <TypeAnimation
               sequence={[
               '<I’m Navid and I’m a solution-oriented web developer with a background in metallurgical engineering.My passion lies in creating, problem solving and teamwork preferably all at the same time. My coworkers would describe me as a passionate, resourceful person who they can rely on for help and information />'
