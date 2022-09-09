@@ -2,13 +2,20 @@ body{
     background-color: var(--nav-color);
 }
 
-
-.contact{
+.contact {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+   
+}
+.contact__section{
     display: grid;
     justify-items:center;
-    margin-top: 8rem;   
     background-color: var(--nav-color);
     height: 100%;
+    flex-grow: 1;
+    
     
 }
 .contact-form{
@@ -22,6 +29,7 @@ body{
     font-family:  'Press Start 2P', cursive;
     background-color: var(--nav-color);
     color: var(--font-color);
+    flex-grow: 1;
 }
 
 .form__input-s{

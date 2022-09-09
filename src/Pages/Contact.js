@@ -18,9 +18,9 @@ function Contact() {
       });
   };
   return (
-    <div>
+    <div className="contact">
       <Navigation />
-      <section className="contact">
+      <section className="contact__section">
         <form ref={form} className={'contact-form'} onSubmit={sendEmail}>
           
           <input type="text" name="user_name" className='form__input-s' placeholder='Your name'/>
@@ -30,8 +30,8 @@ function Contact() {
           <textarea name="message" className='form__input-l' placeholder='Your message'/>
           <input type="submit" value="<Send />"  className='form__input-b'/>
         </form>
-        <Footer />
       </section>
+        <Footer />
     </div>
   )
 }

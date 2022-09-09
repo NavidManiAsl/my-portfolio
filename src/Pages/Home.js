@@ -11,17 +11,17 @@ function Home() {
     <div className='home-main'>
         <Navigation />
         <div className="home__content">
-        <img className='header__image' src={require( "../images/myPicture.png")} alt="Navid Mani Asl" />
-          <div style={{width:450}} className='home__text'>
+        <img className='home__image' src={require( "../images/myPicture.png")} alt="Navid Mani Asl" />
+          <div  className='home__text'>
               <TypeAnimation
               sequence={[
               '<Who am i? />',
               700,
               '<Who am I? />',
               3500,
-              '<Back-end web developer/>',
+              '<Back-end developer/>',
               2500,
-              '<Front-end web developer />',
+              '<Front-end developer />',
               2500,
               '<Full Stack Developer />',
               1000,
